@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:onClick="information"
+            android:text="Minhas Informações"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:onClick="messages"
+            android:text="Mensagens"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:onClick="subjects"
+            android:text="Disciplinas"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:onClick="hour"
+            android:text="Horários"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:onClick="events"
+            android:text="eventos"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:onClick="financial"
+            android:text="extrato financeiro"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:text="Atividades"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1">
+
+        </ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>
